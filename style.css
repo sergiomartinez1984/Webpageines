@@ -152,13 +152,14 @@ img {
 	height: auto;
 }
 
+
 .sticky-container{
     padding:0px;
     margin:0px;
     position:fixed;
-    right:-130px;
+    right:-140px;
     top:230px;
-    width:210px;
+    width:250px;
     z-index: 1100;
 }
 .sticky li{
@@ -175,7 +176,7 @@ img {
     cursor:pointer;
 }
 .sticky li:hover{
-    margin-left:-115px;
+    margin-left:-100px;
 }
 .sticky li img{
     float:left;
