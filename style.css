@@ -1,3 +1,8 @@
+html {
+	height: 100%
+}
+
+
 textTitle{
 	color: red;
 	font-size:90px;
@@ -17,13 +22,14 @@ body{
 	background-position:50% 0%;
 	background-repeat: no-repeat;
 	background-color: black;
-    margin: 0;
-	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
 	background: #f2f2f2; 
 	font-size: 1em;
 	line-height: 1.5em;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 @font-face{
@@ -195,4 +201,14 @@ img {
 }
 .sticky li p a:hover{
     text-decoration:underline;
+}
+
+.sticky-container-acerca{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-170px;
+    top:230px;
+    width:250px;
+    z-index: 1100;
 }
