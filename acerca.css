@@ -1,0 +1,61 @@
+
+.fotoInes {
+	margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(146, 116, 109);
+    background-color: rgb(247, 147, 125);
+    width: 100%;
+    position: fixed;
+    top: 7em;
+    z-index:1;
+}
+
+.description {
+	margin-left: 5%;
+    margin-right: auto;
+    margin-top: 1%;
+    display: inline-block;
+    width: 15em;
+    height: 15em;
+    float: left;
+}
+
+.textDescription {
+	margin-left: 5%;
+    margin-right: auto;
+    display: inline-block;
+    width: 30em;
+    height: 15em;
+    float: left;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 10%;
+  border-color: rgb(146, 116, 109);
+  background-color: rgb(247, 147, 125);
+}
+
+.iconoRedes {
+	margin-left: 14%;
+    margin-right: auto;
+    margin-top: 1em;
+    display: inline-block;
+    width: 2em;
+    height: 1.5em;
+    float: left;
+}
